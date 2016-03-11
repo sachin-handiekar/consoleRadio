@@ -1,0 +1,17 @@
+sudo: required
+before_install:
+  - sudo add-apt install ao
+  - sudo apt-get install curl
+  - sudo apt-get install mpg123
+
+# Enable C++ support
+language: cpp
+# Compiler selection
+compiler:
+  - clang
+  - gcc
+# Build steps
+script:
+  - mkdir build
+  - cd build
+  - cmake .. && make
