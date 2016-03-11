@@ -11,6 +11,7 @@ compiler:
   - clang
   - gcc
 # Build steps
+# Test
 script:
   - mkdir build
   - cd build
