@@ -1,6 +1,6 @@
 sudo: required
 before_install:
-  - sudo add-apt install ao
+  - sudo apt-get install ao
   - sudo apt-get install curl
   - sudo apt-get install mpg123
 
@@ -8,7 +8,6 @@ before_install:
 language: cpp
 # Compiler selection
 compiler:
-  - clang
   - gcc
 # Build steps
 # Test
