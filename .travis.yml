@@ -23,7 +23,7 @@ install:
     fi
   
   # Go to the Root directory  
-  - cd..
+  - cd ..
 
 # Build steps
 script:
