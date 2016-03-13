@@ -3,6 +3,7 @@ before_install:
   - sudo apt-get install libao-dev
   - sudo apt-get install libcurl4-openssl-dev
   - sudo apt-get install libmpg123-dev
+  - chmod +x installMPG123.sh
   - ./installMPG123.sh
 # Enable C++ support
 language: cpp
